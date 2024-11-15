@@ -1,98 +1,96 @@
-# Chat Application
+# Ứng dụng Chat
 
-Welcome to my Chat Application! This project is a full-fledged realtime messaging application with a user interface 
-inspired by WhatsApp. It enables users to exchange messages individually or within groups.
+Chào mừng đến với Ứng dụng Chat của tôi! Dự án này là một ứng dụng nhắn tin thời gian thực với giao diện người dùng 
+lấy cảm hứng từ WhatsApp. Nó cho phép người dùng trao đổi tin nhắn cá nhân hoặc trong nhóm.
 
 ![image Screenshot](./images/homepage.png)
 
-## Features
+## Tính năng
 
-- **Realtime Messaging:** Experience seamless, real-time messaging with instant message delivery.
-- **Individual Messaging:** Send private messages to other users.
-- **Group Messaging:** Create and edit groups to communicate with more than one user.
-- **Login And Signup:** Securely access the application with a login and signup system.
+- **Nhắn tin thời gian thực:** Trải nghiệm nhắn tin mượt mà, thời gian thực với việc gửi tin nhắn tức thì.
+- **Nhắn tin cá nhân:** Gửi tin nhắn riêng tư đến người dùng khác.
+- **Nhắn tin nhóm:** Tạo và chỉnh sửa nhóm để giao tiếp với nhiều người dùng.
+- **Đăng nhập và Đăng ký:** Truy cập ứng dụng an toàn với hệ thống đăng nhập và đăng ký.
 
-## Technologies
+## Công nghệ sử dụng
 
-- **Frontend:** Typescript with React
-- **Backend:** Java with Spring Boot, Spring Security, Spring Websocket and Spring Data JPA
-- **Database:** PostgreSQL
-- **Authentication:** JSON Web Token (JWT)
-- **State Management:** Redux, Thunk
-- **Component Library:** Material UI
+- **Frontend:** Typescript với React
+- **Backend:** Java với Spring Boot, Spring Security, Spring Websocket và Spring Data JPA
+- **Cơ sở dữ liệu:** PostgreSQL
+- **Xác thực:** JSON Web Token (JWT)
+- **Quản lý trạng thái:** Redux, Thunk
+- **Thư viện Component:** Material UI
 
-## Getting Started
+## Bắt đầu
 
-### Prerequisites
+### Yêu cầu
 
-Ensure you have **npm** and **mvn** installed on your machine.
+Đảm bảo bạn đã cài đặt **npm** và **mvn** trên máy tính của bạn.
 
-### Installation
+### Cài đặt
 
-1. **Clone the repository:**  
+1. **Clone repository:**  
     ```bash  
-    git clone https://github.com/nicolasjusten95/chat-app.git
+    git clone https://github.com/hiepau1231/chat-app2.git
     ```
    
-2. **Navigate to the Frontend and install the required dependencies:**  
+2. **Di chuyển vào thư mục Frontend và cài đặt các dependencies:**  
     ```bash
     cd frontend
     npm install
     ```
    
-3. **Navigate to the Backend and install the required dependencies:**  
+3. **Di chuyển vào thư mục Backend và cài đặt các dependencies:**  
     ```bash
     cd backend
     mvn clean install
     ```
    
-4. **Configure Environment Variables:**  
-   Configure the Spring Boot application.properties for database and other configurations.
+4. **Cấu hình biến môi trường:**  
+   Cấu hình application.properties của Spring Boot cho database và các cấu hình khác.
 
-5. **Run the Application:**
-    - Start the frontend:
+5. **Chạy ứng dụng:**
+    - Khởi động frontend:
       ```bash
       npm start
       ```
-    - Start the backend:
+    - Khởi động backend:
       ```bash
       mvn spring-boot:run
       ```
-6. **Access the Application:**
-   - Open your browser and visit [http://localhost:3000](http://localhost:3000) to use the Realtime Chat Application.
-   - You can log in with a sample user to access the app with predefined data:
+6. **Truy cập ứng dụng:**
+   - Mở trình duyệt và truy cập [http://localhost:3000](http://localhost:3000) để sử dụng ứng dụng Chat.
+   - Bạn có thể đăng nhập với tài khoản mẫu để truy cập ứng dụng với dữ liệu có sẵn:
      - email: luke.skywalker@test.com
      - password: luke
-   - Or you can create your own Accounts and start chatting!
+   - Hoặc bạn có thể tạo tài khoản mới và bắt đầu chat!
 
-## Images
+## Hình ảnh
 
-View your chats with other users:
+Xem các cuộc trò chuyện với người dùng khác:
 ![image Screenshot](./images/homepage.png)
 
-Send messages to other users:
+Gửi tin nhắn cho người dùng khác:
 ![image Screenshot](./images/send_messages.png)
 
-Log into your account:
+Đăng nhập vào tài khoản:
 ![image Screenshot](./images/signin.png)
 
-Create a new account:
+Tạo tài khoản mới:
 ![image Screenshot](./images/signup.png)
 
-Start a new chat:
+Bắt đầu cuộc trò chuyện mới:
 ![image Screenshot](./images/start_new_group_chat.png)
 
-Edit your chats:
+Chỉnh sửa cuộc trò chuyện:
 ![image Screenshot](./images/edit_group_chat.png)
 
-## Contribution Guidelines
+## Hướng dẫn đóng góp
 
-I welcome contributions! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+Tôi rất hoan nghênh các đóng góp! Nếu bạn có ý tưởng cải thiện hoặc tính năng mới, hãy tạo issue hoặc gửi pull request.
 
-## License
+## Giấy phép
 
-This project is licensed under the [MIT License](LICENSE).
+Dự án này được cấp phép theo [Giấy phép MIT](LICENSE).
 
-Thank you for using and contributing to the Realtime Chat Application!
-
- 
+Cảm ơn bạn đã sử dụng và đóng góp cho Ứng dụng Chat Thời gian thực!
