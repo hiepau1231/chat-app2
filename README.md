@@ -65,25 +65,7 @@ lấy cảm hứng từ WhatsApp. Nó cho phép người dùng trao đổi tin n
      - password: luke
    - Hoặc bạn có thể tạo tài khoản mới và bắt đầu chat!
 
-## Hình ảnh
 
-Xem các cuộc trò chuyện với người dùng khác:
-![image Screenshot](./images/homepage.png)
-
-Gửi tin nhắn cho người dùng khác:
-![image Screenshot](./images/send_messages.png)
-
-Đăng nhập vào tài khoản:
-![image Screenshot](./images/signin.png)
-
-Tạo tài khoản mới:
-![image Screenshot](./images/signup.png)
-
-Bắt đầu cuộc trò chuyện mới:
-![image Screenshot](./images/start_new_group_chat.png)
-
-Chỉnh sửa cuộc trò chuyện:
-![image Screenshot](./images/edit_group_chat.png)
 
 ## Hướng dẫn đóng góp
 
